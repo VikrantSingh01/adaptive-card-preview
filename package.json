@@ -1,0 +1,27 @@
+{
+  "name": "adaptive-card-preview",
+  "version": "1.0.0",
+  "description": "Playwright-based tool to capture Adaptive Card rendering snapshots from the official Microsoft Designer",
+  "main": "card-preview.js",
+  "bin": {
+    "adaptive-card-preview": "card-preview.js"
+  },
+  "scripts": {
+    "preview": "node card-preview.js",
+    "discover": "node card-preview.js --discover --headed",
+    "setup": "npx playwright install chromium"
+  },
+  "keywords": [
+    "adaptive-cards",
+    "playwright",
+    "screenshot",
+    "snapshot",
+    "preview",
+    "microsoft"
+  ],
+  "author": "VikrantSingh01",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.50.0"
+  }
+}
